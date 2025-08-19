@@ -8,7 +8,7 @@
 
     $('.colors li').on('click', function () {
         var $this = $(this);
-        var styleLinker = $('#galio-skin'),
+        var styleLinker = $('#propelvirtual-skin'),
             colorName = $this.data('color');
         styleLinker.attr('href', 'assets/css/skin-' + colorName + '.css');
         $(".colors li").removeClass('active');
