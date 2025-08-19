@@ -121,7 +121,7 @@
                     <p><a target="_blank" href="https://www.propelvirtual.com">Propelvirtual</a></p>
                 </div>
                 <div class="payment-method-img">
-                    <img src="assets/img/payment.png" alt="">
+                    <img src="{{ asset('assets/img/payment.png') }}" alt="">
                 </div>
             </div>
         </div>
