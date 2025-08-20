@@ -21,4 +21,19 @@ class HomeController extends Controller
     {
         return view('login-register.index');
     }
+
+    public function cart()
+    {
+        return view('cart.index');
+    }
+    
+    public function checkout()
+    {
+        return view('checkout.index');
+    }
+
+    public function contact_us()
+    {
+        return view('contact-us.index');
+    }
 }
