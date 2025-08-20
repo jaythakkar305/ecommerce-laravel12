@@ -10,4 +10,15 @@ class HomeController extends Controller
     {
         return view('home.index');
     }
+
+
+    public function shop()
+    {
+        return view('shop.index');
+    }
+    
+    public function loginRegister()
+    {
+        return view('login-register.index');
+    }
 }
