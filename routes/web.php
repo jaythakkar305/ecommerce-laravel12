@@ -9,3 +9,4 @@ Route::get('/login-register', [HomeController::class, 'loginRegister'])->name('l
 Route::get('/cart', [HomeController::class, 'cart'])->name('cart');
 Route::get('/checkout', [HomeController::class, 'checkout'])->name('checkout');
 Route::get('/contact-us', [HomeController::class, 'contact_us'])->name('contact_us');
+Route::get('/product-details', [HomeController::class, 'product_details'])->name('product_details');

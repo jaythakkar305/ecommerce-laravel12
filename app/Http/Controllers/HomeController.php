@@ -36,4 +36,9 @@ class HomeController extends Controller
     {
         return view('contact-us.index');
     }
+
+    public function product_details()
+    {
+        return view('product-details.index');
+    }
 }
